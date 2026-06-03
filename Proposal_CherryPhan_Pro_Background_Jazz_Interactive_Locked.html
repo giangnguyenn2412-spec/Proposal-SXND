@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="vi"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đề xuất hợp tác phát triển năng lực cá nhân — Nguyễn Trường Giang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..800,70&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fff8ef;
+  --paper:#fffdf8;
+  --ink:#20201d;
+  --muted:#6d675e;
+  --line:#e6d9ca;
+  --peach:#ffb394;
+  --coral:#ff6f61;
+  --rose:#ffcfdf;
+  --sky:#b8dff5;
+  --leaf:#9ed69c;
+  --butter:#ffe985;
+  --dark:#22201c;
+  --shadow:0 26px 80px rgba(77,55,38,.13);
+  --soft-shadow:0 14px 44px rgba(77,55,38,.08);
+  --display:'Fraunces', serif;
+  --body:'Manrope', sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);line-height:1.62;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-4;pointer-events:none;background:radial-gradient(circle at 10% 8%, rgba(255,207,223,.9), transparent 24%),radial-gradient(circle at 88% 8%, rgba(184,223,245,.85), transparent 26%),radial-gradient(circle at 12% 86%, rgba(255,233,133,.58), transparent 28%),radial-gradient(circle at 78% 78%, rgba(158,214,156,.42), transparent 26%)}
+body:after{content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;opacity:.32;background-image:url("data:image/svg+xml,%3Csvg width='140' height='140' viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23a7896d' stroke-opacity='.24' stroke-width='1'%3E%3Cpath d='M0 70h140M70 0v140'/%3E%3Ccircle cx='70' cy='70' r='31'/%3E%3C/g%3E%3C/svg%3E")}
+a{color:inherit}.progress{position:fixed;top:0;left:0;width:0;height:5px;background:linear-gradient(90deg,var(--coral),var(--peach),var(--sky),var(--leaf));z-index:9999;border-radius:0 99px 99px 0}.edit-badge{position:fixed;right:24px;bottom:24px;background:var(--dark);color:var(--butter);z-index:9999;border-radius:999px;padding:10px 16px;font-weight:800;font-size:12px;box-shadow:var(--soft-shadow);opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none}.edit-badge.show{opacity:1;transform:none}
+.export-btn{position:fixed;left:24px;bottom:24px;z-index:9999;border:1px solid rgba(32,32,29,.14);background:rgba(255,253,248,.84);backdrop-filter:blur(16px);border-radius:999px;padding:10px 16px;font-weight:800;font-size:12px;cursor:pointer;box-shadow:var(--soft-shadow);transition:.2s}.export-btn:hover{transform:translateY(-2px);background:#fff}
+[contenteditable="true"]{outline:none;border-radius:8px;transition:.18s}[contenteditable="true"]:hover{background:rgba(255,255,255,.42);box-shadow:0 0 0 6px rgba(255,255,255,.42)}[contenteditable="true"]:focus{background:#fff;box-shadow:0 0 0 2px var(--coral),0 0 0 7px rgba(255,111,97,.14)}
+.nav{position:fixed;top:18px;left:50%;transform:translateX(-50%);width:min(1120px,calc(100% - 32px));height:66px;background:rgba(255,253,248,.74);backdrop-filter:blur(18px);border:1px solid rgba(32,32,29,.12);border-radius:999px;display:flex;align-items:center;justify-content:space-between;padding:0 14px 0 24px;z-index:800;box-shadow:var(--soft-shadow)}.brand{font-weight:900;letter-spacing:-.04em;display:flex;align-items:center;gap:12px}.brand-mark{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 32%,#fff 0 9%,transparent 10%),linear-gradient(135deg,var(--coral),var(--rose));position:relative;box-shadow:inset -8px -8px 20px rgba(0,0,0,.08)}.brand-mark:before,.brand-mark:after{content:"";position:absolute;background:var(--leaf);border-radius:90% 0 90% 0;width:18px;height:11px;top:-5px;left:20px;transform:rotate(-24deg)}.nav-links{display:flex;gap:2px;background:rgba(32,32,29,.05);border-radius:999px;padding:5px}.nav-links a{text-decoration:none;color:var(--muted);font-size:12px;font-weight:800;padding:10px 14px;border-radius:999px}.nav-links a:hover{background:#fff;color:var(--ink);box-shadow:0 8px 18px rgba(77,55,38,.08)}
+.side-follow{position:fixed;left:22px;top:50%;transform:translateY(-50%);z-index:30;display:flex;flex-direction:column;align-items:center;gap:14px;color:rgba(32,32,29,.48);font-size:10px;font-weight:900;letter-spacing:.22em;text-transform:uppercase}.side-follow:before,.side-follow:after{content:"";width:1px;height:64px;background:rgba(32,32,29,.14)}
+main{width:min(1120px,calc(100% - 32px));margin:0 auto}.hero{min-height:100svh;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:46px;padding:120px 0 70px;position:relative}.hero:before{content:"";position:absolute;right:-90px;top:120px;width:150px;height:150px;border:2px solid rgba(32,32,29,.14);border-radius:50%;animation:spin 18s linear infinite}.hero:after{content:"✦";position:absolute;left:48%;top:138px;font-size:52px;color:var(--coral);animation:float 4.5s ease-in-out infinite}.kicker{font-size:13px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--coral);display:flex;gap:10px;align-items:center;margin-bottom:18px}.kicker:before{content:"";width:42px;height:2px;background:var(--coral)}h1{font-family:var(--display);font-size:clamp(3.8rem,9vw,8.7rem);font-weight:800;line-height:.83;letter-spacing:-.075em;margin-bottom:28px}.hero h1 span{display:block}.hero h1 .accent{font-style:italic;color:var(--coral);padding-left:.16em}.lead{font-size:clamp(1rem,1.45vw,1.22rem);color:var(--muted);max-width:63ch}.hero-art{position:relative;min-height:600px;display:grid;place-items:center}.portrait-card{width:min(430px,100%);aspect-ratio:4/5;border-radius:48% 48% 42% 42%/38% 38% 58% 58%;background:linear-gradient(160deg,var(--sky),#fff 42%,var(--rose));box-shadow:var(--shadow);border:1px solid rgba(32,32,29,.12);position:relative;overflow:hidden;animation:float 5.6s ease-in-out infinite}.portrait-card:before{content:"";position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:190px;height:190px;border-radius:50%;background:linear-gradient(140deg,var(--peach),var(--coral));box-shadow:0 84px 0 30px rgba(34,32,28,.92)}.portrait-card:after{content:"PROPOSAL";position:absolute;left:50%;bottom:54px;transform:translateX(-50%) rotate(-6deg);font-family:var(--display);font-size:42px;font-weight:800;letter-spacing:-.07em;color:rgba(255,255,255,.92)}.blob{position:absolute;border-radius:999px;border:1px solid rgba(32,32,29,.12);box-shadow:var(--soft-shadow);display:grid;place-items:center;font-size:28px;background:rgba(255,253,248,.86);backdrop-filter:blur(12px);animation:float 5s ease-in-out infinite}.blob.one{width:108px;height:108px;left:0;top:76px;background:var(--butter)}.blob.two{width:84px;height:84px;right:12px;top:34px;background:var(--leaf);animation-delay:-1s}.blob.three{width:96px;height:96px;right:-10px;bottom:120px;background:var(--rose);animation-delay:-2s}.blob.four{width:78px;height:78px;left:34px;bottom:70px;background:var(--sky);animation-delay:-3s}.meta-strip{position:absolute;left:-8px;right:-8px;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.meta-item{background:rgba(255,253,248,.84);backdrop-filter:blur(16px);border:1px solid rgba(32,32,29,.1);border-radius:22px;padding:16px;box-shadow:var(--soft-shadow)}.meta-item small{display:block;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin-bottom:4px}.meta-item strong{display:block;font-size:13px;line-height:1.25}.scroll-hint{position:absolute;bottom:28px;left:0;display:flex;align-items:center;gap:10px;color:var(--muted);font-size:12px;font-weight:900}.scroll-hint i{width:34px;height:54px;border-radius:99px;border:1.5px solid rgba(32,32,29,.25);position:relative}.scroll-hint i:before{content:"";position:absolute;top:10px;left:50%;width:5px;height:9px;border-radius:99px;background:var(--coral);transform:translateX(-50%);animation:wheel 1.8s infinite}
+.ribbon{width:100vw;margin-left:calc(50% - 50vw);overflow:hidden;border-block:1px solid var(--line);background:rgba(255,253,248,.56);transform:rotate(-1.1deg);margin-bottom:40px}.ribbon-track{display:flex;width:max-content;animation:marquee 24s linear infinite}.ribbon span{font-family:var(--display);font-weight:800;font-size:clamp(2rem,4.8vw,4.6rem);letter-spacing:-.07em;white-space:nowrap;padding:18px 22px}.ribbon span:nth-child(3n+2){color:var(--coral);font-style:italic}.ribbon span:nth-child(3n+3){color:transparent;-webkit-text-stroke:1.4px var(--ink)}
+.section{padding:90px 0;position:relative}.section-label{display:grid;grid-template-columns:150px 1fr;gap:28px;align-items:start;margin-bottom:34px}.num{font-weight:900;color:var(--coral);letter-spacing:.18em;text-transform:uppercase;font-size:12px}.title{font-family:var(--display);font-size:clamp(2.45rem,5.2vw,5.2rem);line-height:.92;letter-spacing:-.075em;font-weight:800}.desc{color:var(--muted);margin-top:18px;max-width:72ch;font-size:1.05rem}.panel{background:rgba(255,253,248,.76);border:1px solid rgba(32,32,29,.12);border-radius:34px;padding:30px;box-shadow:var(--soft-shadow);position:relative;overflow:hidden}.panel:before{content:"";position:absolute;inset:auto -80px -110px auto;width:240px;height:240px;border-radius:50%;background:rgba(255,207,223,.42);z-index:0}.panel>*{position:relative}.grid{display:grid;gap:18px}.grid.two{grid-template-columns:repeat(2,1fr)}.grid.three{grid-template-columns:repeat(3,1fr)}.grid.four{grid-template-columns:repeat(4,1fr)}.card{background:rgba(255,253,248,.86);border:1px solid rgba(32,32,29,.12);border-radius:30px;padding:28px;box-shadow:var(--soft-shadow);position:relative;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}.card:hover{transform:translateY(-6px) rotate(-.35deg);box-shadow:var(--shadow)}.card h3,.card h4{font-family:var(--display);font-weight:800;letter-spacing:-.055em;line-height:1.02}.card h3{font-size:1.78rem;margin:12px 0}.card h4{font-size:1.25rem;margin:10px 0}.card p,.card li{color:var(--muted);font-size:14.5px}.tag{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(32,32,29,.12);background:#fff;border-radius:999px;padding:7px 12px;font-size:10px;font-weight:900;letter-spacing:.15em;text-transform:uppercase}.tag:before{content:"✿";color:var(--coral)}.card.peach{background:linear-gradient(145deg,#fff,var(--peach))}.card.rose{background:linear-gradient(145deg,#fff,var(--rose))}.card.sky{background:linear-gradient(145deg,#fff,var(--sky))}.card.leaf{background:linear-gradient(145deg,#fff,var(--leaf))}.card.butter{background:linear-gradient(145deg,#fff,var(--butter))}.card.dark{background:var(--dark);color:#fff}.card.dark p,.card.dark li{color:rgba(255,255,255,.72)}.card.dark .tag{color:var(--ink);background:var(--butter)}
+.table-wrap{overflow:hidden;border:1px solid rgba(32,32,29,.12);border-radius:34px;background:rgba(255,253,248,.88);box-shadow:var(--shadow)}table{border-collapse:collapse;width:100%}th,td{padding:22px;vertical-align:top;text-align:left;border-bottom:1px solid var(--line)}th{background:var(--dark);color:#fff;font-size:11px;text-transform:uppercase;letter-spacing:.16em}td:first-child{font-weight:900;width:20%}td:nth-child(2){color:var(--muted);width:30%}tr:last-child td{border-bottom:none}.split-quote{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px}.quote-card{min-height:390px;background:var(--dark);color:#fff;border-radius:38px;padding:36px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between}.quote-card h3{font-family:var(--display);font-size:clamp(2rem,4.5vw,4.8rem);line-height:.9;letter-spacing:-.07em;color:var(--butter)}.quote-card p{color:rgba(255,255,255,.7);max-width:42ch}.benefit-list{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}.phase{display:grid;grid-template-columns:310px 1fr;border:1px solid rgba(32,32,29,.12);border-radius:38px;background:rgba(255,253,248,.82);box-shadow:var(--soft-shadow);overflow:hidden;margin-bottom:22px}.phase-left{padding:34px;display:flex;flex-direction:column;justify-content:space-between;min-height:430px;background:linear-gradient(160deg,var(--rose),#fff)}.phase:nth-child(2) .phase-left{background:linear-gradient(160deg,var(--sky),#fff)}.phase:nth-child(3) .phase-left{background:linear-gradient(160deg,var(--leaf),#fff)}.phase-code{font-weight:900;text-transform:uppercase;letter-spacing:.18em;font-size:11px;color:var(--coral);margin-bottom:18px}.phase-left h3{font-family:var(--display);font-size:2.25rem;line-height:.96;letter-spacing:-.065em}.phase-time{font-weight:900;color:var(--muted);font-size:12px}.phase-right{padding:34px}.phase-right h4{font-family:var(--display);font-size:1.48rem;letter-spacing:-.05em;margin:22px 0 10px}.phase-right h4:first-child{margin-top:0}.phase-right ul{list-style:none;display:grid;gap:9px}.phase-right li{position:relative;padding-left:23px;color:var(--muted);font-size:14.5px}.phase-right li:before{content:"→";position:absolute;left:0;color:var(--coral);font-weight:900}.outcome{background:#fff;border:1px solid rgba(32,32,29,.12);border-radius:24px;padding:20px;margin-top:24px;box-shadow:0 12px 30px rgba(77,55,38,.06)}.outcome strong{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--coral);margin-bottom:8px}.outcome p{color:var(--ink);font-weight:800}.steps{display:grid;gap:14px}.step{display:grid;grid-template-columns:170px 1fr;gap:24px;background:rgba(255,253,248,.82);border:1px solid rgba(32,32,29,.12);border-radius:28px;padding:22px;box-shadow:var(--soft-shadow)}.step strong{font-weight:900;color:var(--coral);letter-spacing:.13em;text-transform:uppercase;font-size:12px}.step p{color:var(--muted)}.closing{padding:100px 0 56px;display:grid;grid-template-columns:1fr 360px;gap:22px;align-items:center}.closing h2{font-family:var(--display);font-size:clamp(3rem,7vw,7rem);line-height:.82;letter-spacing:-.08em}.closing h2 em{display:block;color:var(--coral);font-style:italic}.contact-card{background:linear-gradient(145deg,var(--butter),#fff);border:1px solid rgba(32,32,29,.12);border-radius:38px;padding:34px;box-shadow:var(--shadow)}.contact-card .small{font-weight:900;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}.contact-card h3{font-family:var(--display);font-size:2rem;letter-spacing:-.06em;margin-bottom:6px}.contact-card p{color:var(--muted);margin-bottom:22px}.contact-card a{text-decoration:none;font-weight:900;border-bottom:2px solid var(--ink)}footer{width:min(1120px,calc(100% - 32px));margin:0 auto;border-top:1px solid var(--line);padding:24px 0 32px;display:flex;justify-content:space-between;color:var(--muted);font-size:12px;font-weight:800}.reveal{opacity:0;transform:translateY(32px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}.reveal.in{opacity:1;transform:none}
+@keyframes marquee{to{transform:translateX(-50%)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes wheel{0%{transform:translate(-50%,0);opacity:1}80%{transform:translate(-50%,18px);opacity:0}100%{opacity:0}}
+@media(max-width:1000px){.side-follow{display:none}.nav-links{display:none}.hero,.split-quote,.phase,.closing{grid-template-columns:1fr}.hero-art{min-height:560px}.meta-strip{position:relative;margin-top:18px;left:0;right:0}.grid.three,.grid.four,.benefit-list{grid-template-columns:1fr 1fr}.section-label{grid-template-columns:1fr}.phase-left{min-height:auto}.table-wrap{overflow-x:auto}table{min-width:780px}}
+@media(max-width:620px){main{width:min(100% - 24px,1120px)}.nav{width:calc(100% - 20px);top:10px}.hero{padding-top:105px}.hero-art{min-height:510px}.meta-strip,.grid.two,.grid.three,.grid.four,.benefit-list{grid-template-columns:1fr}.section{padding:66px 0}.card,.panel,.quote-card,.phase-left,.phase-right{padding:24px;border-radius:26px}.step{grid-template-columns:1fr}.closing{padding-top:70px}footer{flex-direction:column;gap:8px;width:calc(100% - 24px)}.export-btn{left:12px;bottom:12px}.edit-badge{right:12px;bottom:12px}}
+@media print{.nav,.side-follow,.progress,.export-btn,.edit-badge,.ribbon{display:none}.reveal{opacity:1;transform:none}body{background:#fff}body:before,body:after{display:none}main,footer{width:100%;padding:0 24px}.section,.hero,.closing{padding:30px 0}.card,.panel,.phase,.table-wrap,.quote-card{box-shadow:none;break-inside:avoid}}
+
+
+/* ─────────────────────────────────────────
+   PRO BACKGROUND + JAZZ + INTERACTIVE LOCK LAYER
+   Nội dung proposal không đổi. Phần này chỉ bổ sung UI/UX.
+───────────────────────────────────────── */
+:root{
+  --glass:rgba(255,253,248,.72);
+  --glass-strong:rgba(255,253,248,.9);
+  --glow:0 30px 90px rgba(255,111,97,.13),0 14px 40px rgba(34,32,28,.08);
+}
+body.locked [contenteditable="true"],
+body.locked [contenteditable="false"]{
+  -webkit-user-select:text;
+  user-select:text;
+}
+body.locked [contenteditable="true"]:hover,
+body.locked [contenteditable="false"]:hover,
+body.locked [contenteditable="true"]:focus,
+body.locked [contenteditable="false"]:focus{
+  background:transparent!important;
+  box-shadow:none!important;
+  cursor:default;
+}
+body.editing [contenteditable="true"]:hover{cursor:text}
+.background-stage{position:fixed;inset:0;z-index:-2;overflow:hidden;pointer-events:none;contain:layout paint style}
+.bg-photo{position:absolute;opacity:.13;filter:grayscale(.15) saturate(.82) contrast(.96);mix-blend-mode:multiply;will-change:transform}
+.bg-photo svg{width:100%;height:100%;display:block}
+.bg-photo.one{width:430px;height:430px;right:-70px;top:130px;opacity:.16}
+.bg-photo.two{width:500px;height:500px;left:-130px;top:900px;opacity:.12}
+.bg-photo.three{width:360px;height:360px;right:8%;top:1680px;opacity:.1}
+.bg-photo.four{width:520px;height:520px;left:4%;top:2620px;opacity:.095}
+.bg-orb{position:absolute;border-radius:999px;filter:blur(1px);opacity:.34;will-change:transform;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.85),rgba(255,111,97,.2) 55%,transparent 72%)}
+.bg-orb.a{width:420px;height:420px;left:60%;top:660px;background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.9),rgba(184,223,245,.28),transparent 72%)}
+.bg-orb.b{width:340px;height:340px;left:5%;top:1540px;background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.82),rgba(255,233,133,.26),transparent 72%)}
+.bg-orb.c{width:460px;height:460px;right:-120px;top:2300px;background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.82),rgba(158,214,156,.24),transparent 72%)}
+.bg-watermark{position:fixed;right:-4vw;bottom:7vh;z-index:-1;font-family:var(--display);font-weight:800;letter-spacing:-.09em;font-size:clamp(7rem,18vw,19rem);color:rgba(32,32,29,.035);line-height:.8;pointer-events:none;transform:rotate(-7deg);will-change:transform}.cursor-glow{position:fixed;left:0;top:0;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(255,111,97,.13),rgba(184,223,245,.09) 45%,transparent 72%);pointer-events:none;z-index:50;transform:translate(-50%,-50%);opacity:0;transition:opacity .25s ease;mix-blend-mode:multiply}.web-controls{position:fixed;right:24px;bottom:24px;z-index:10000;display:flex;flex-direction:column;gap:10px;align-items:flex-end}.control-row{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}.web-btn,.jazz-btn{border:1px solid rgba(32,32,29,.14);background:var(--glass-strong);backdrop-filter:blur(18px);border-radius:999px;padding:10px 14px;font-weight:900;font-size:12px;line-height:1;cursor:pointer;box-shadow:var(--soft-shadow);transition:transform .2s ease,background .2s ease,box-shadow .2s ease}.web-btn:hover,.jazz-btn:hover{transform:translateY(-2px);box-shadow:var(--glow);background:#fff}.web-btn.primary{background:var(--dark);color:var(--butter)}.web-btn.warn{background:var(--coral);color:#fff}.jazz-player{display:flex;align-items:center;gap:10px;background:rgba(34,32,28,.88);color:#fff;border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:8px 12px;box-shadow:var(--shadow);backdrop-filter:blur(18px)}.jazz-toggle{width:34px;height:34px;border-radius:999px;border:0;background:var(--butter);color:var(--dark);display:grid;place-items:center;cursor:pointer;font-weight:900}.jazz-copy{display:flex;flex-direction:column;gap:1px;min-width:126px}.jazz-title{font-size:11px;font-weight:900;letter-spacing:-.02em}.jazz-sub{font-size:9px;color:rgba(255,255,255,.55);letter-spacing:.14em;text-transform:uppercase}.jazz-bars{display:flex;align-items:end;gap:2px;height:16px}.jazz-bars i{display:block;width:3px;border-radius:99px;background:var(--butter);animation:jazzBar .7s ease-in-out infinite alternate}.jazz-bars i:nth-child(1){height:6px;animation-delay:0s}.jazz-bars i:nth-child(2){height:13px;animation-delay:.12s}.jazz-bars i:nth-child(3){height:9px;animation-delay:.24s}.jazz-bars i:nth-child(4){height:15px;animation-delay:.05s}.jazz-bars i:nth-child(5){height:7px;animation-delay:.19s}.jazz-player.paused .jazz-bars i{animation-play-state:paused;height:4px!important}.jazz-volume{width:68px;accent-color:var(--butter)}.export-btn{left:24px;bottom:24px}.edit-badge{right:24px;bottom:166px}.nav{transition:height .28s ease,top .28s ease,box-shadow .28s ease,background .28s ease}.nav.compact{top:10px;height:56px;background:rgba(255,253,248,.86);box-shadow:0 10px 36px rgba(77,55,38,.12)}.nav-links a.active{background:var(--dark);color:#fff;box-shadow:0 10px 22px rgba(34,32,28,.14)}.magnetic{will-change:transform}.tilt,.card,.phase,.table-wrap,.quote-card,.contact-card,.portrait-card{transform-style:preserve-3d;will-change:transform}.card:after,.phase:after,.quote-card:after,.contact-card:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.5),transparent 34%);opacity:0;transition:opacity .25s}.card:hover:after,.phase:hover:after,.quote-card:hover:after,.contact-card:hover:after{opacity:.72}.parallax-item{will-change:transform}.section{scroll-margin-top:96px}.section::before{content:"";position:absolute;left:50%;top:16px;width:min(780px,78vw);height:1px;background:linear-gradient(90deg,transparent,rgba(32,32,29,.14),transparent);transform:translateX(-50%);opacity:.6}.ribbon{will-change:transform}.presentation-toast{position:fixed;left:50%;bottom:24px;z-index:10001;transform:translate(-50%,18px);background:var(--dark);color:#fff;border-radius:999px;padding:10px 16px;font-size:12px;font-weight:900;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.25s}.presentation-toast.show{opacity:1;transform:translate(-50%,0)}
+@keyframes jazzBar{from{transform:scaleY(.4)}to{transform:scaleY(1)}}
+@media(max-width:760px){.web-controls{left:12px;right:12px;bottom:12px;align-items:stretch}.control-row{justify-content:center}.jazz-player{justify-content:center}.jazz-copy{min-width:auto}.jazz-volume{display:none}.export-btn{display:none}.edit-badge{bottom:150px;right:12px}.bg-photo.one{right:-220px}.bg-photo.two{left:-260px}.bg-watermark{font-size:8rem;right:-20vw}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.background-stage,.cursor-glow{display:none}.reveal{opacity:1!important;transform:none!important}}
+@media print{.background-stage,.cursor-glow,.web-controls,.jazz-player,.presentation-toast{display:none!important}.bg-watermark{display:none!important}}
+
+</style>
+</head>
+<body class="locked">
+
+<div class="background-stage" aria-hidden="true">
+  <div class="bg-orb a" data-depth="0.05"></div>
+  <div class="bg-orb b" data-depth="0.09"></div>
+  <div class="bg-orb c" data-depth="0.065"></div>
+  <div class="bg-photo one" data-depth="0.035">
+    <svg viewBox="0 0 420 420" role="img" aria-hidden="true"><defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#ff6f61"/><stop offset="1" stop-color="#b8dff5"/></linearGradient></defs><rect x="68" y="56" width="260" height="300" rx="44" fill="none" stroke="url(#g1)" stroke-width="3"/><circle cx="184" cy="188" r="92" fill="none" stroke="#20201d" stroke-width="2" opacity=".45"/><path d="M84 302 C152 206 238 392 334 244" fill="none" stroke="#20201d" stroke-width="3" opacity=".35"/><path d="M128 112h150M128 138h118M128 164h178" stroke="#20201d" stroke-width="2" opacity=".32"/></svg>
+  </div>
+  <div class="bg-photo two" data-depth="0.055">
+    <svg viewBox="0 0 500 500" role="img" aria-hidden="true"><path d="M91 250c0-88 71-159 159-159s159 71 159 159-71 159-159 159S91 338 91 250Z" fill="none" stroke="#20201d" stroke-width="2" opacity=".35"/><path d="M250 86v328M86 250h328" stroke="#20201d" stroke-width="1.5" opacity=".24"/><path d="M142 338c42-92 117-150 216-174" fill="none" stroke="#ff6f61" stroke-width="9" stroke-linecap="round" opacity=".32"/><circle cx="162" cy="158" r="28" fill="#ffe985" opacity=".45"/><circle cx="342" cy="338" r="38" fill="#9ed69c" opacity=".4"/></svg>
+  </div>
+  <div class="bg-photo three" data-depth="0.075">
+    <svg viewBox="0 0 360 360" role="img" aria-hidden="true"><rect x="56" y="70" width="248" height="220" rx="30" fill="none" stroke="#20201d" stroke-width="2" opacity=".32"/><path d="M92 132h176M92 172h130M92 212h156" stroke="#20201d" stroke-width="2" opacity=".28"/><circle cx="270" cy="92" r="36" fill="#ffcfdf" opacity=".6"/><path d="M74 278l70-76 48 45 54-92 42 123" fill="none" stroke="#5b8fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/></svg>
+  </div>
+  <div class="bg-photo four" data-depth="0.045">
+    <svg viewBox="0 0 520 520" role="img" aria-hidden="true"><path d="M80 170c70-96 219-106 307-26 83 75 74 203-6 275-90 81-235 54-296-51-36-62-47-135-5-198Z" fill="none" stroke="#20201d" stroke-width="2" opacity=".25"/><path d="M166 190c40-35 101-42 148-16 43 24 68 76 54 122-15 50-66 86-120 78-55-8-98-54-103-108-3-29 5-55 21-76Z" fill="none" stroke="#ff6f61" stroke-width="8" opacity=".2"/><path d="M136 132l260 260M394 132L134 392" stroke="#20201d" stroke-width="1.6" opacity=".2"/></svg>
+  </div>
+</div>
+<div class="bg-watermark" aria-hidden="true">WIN<br>WIN</div>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<div class="presentation-toast" id="toast">Đã khóa chỉnh sửa</div>
+<audio id="bgJazz" loop preload="none">
+  <source src="https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3" type="audio/mpeg">
+</audio>
+<div class="web-controls" aria-label="Web controls">
+  <div class="jazz-player paused" id="jazzPlayer">
+    <button class="jazz-toggle" id="jazzToggle" type="button" title="Play / Pause jazz">▶</button>
+    <div class="jazz-copy"><span class="jazz-title">Jazz Background</span><span class="jazz-sub">professional loop</span></div>
+    <div class="jazz-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <input class="jazz-volume" id="jazzVolume" type="range" min="0" max="1" step="0.05" value="0.35" title="Volume">
+  </div>
+  <div class="control-row">
+    <button class="web-btn" id="editToggle" type="button">Mở chỉnh sửa</button>
+    <button class="web-btn primary" id="lockBtn" type="button">Khóa chỉnh sửa</button>
+    <button class="web-btn warn" id="publishLocked" type="button">Xuất bản đã khóa</button>
+  </div>
+</div>
+
+<div class="progress" id="progress" style="width: 14.7576%;"></div>
+<div class="edit-badge" id="editBadge">Đang chỉnh sửa nội dung</div>
+<button class="export-btn" id="exportBtn" type="button">Xuất HTML đã sửa</button>
+<nav class="nav">
+  <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span contenteditable="true" spellcheck="false">Nguyễn Trường Giang</span></div>
+  <div class="nav-links">
+    <a href="#summary" contenteditable="true" spellcheck="false">Tổng quan</a>
+    <a href="#winwin" contenteditable="true" spellcheck="false">Win-win</a>
+    <a href="#roadmap" contenteditable="true" spellcheck="false">Lộ trình</a>
+    <a href="#commitment" contenteditable="true" spellcheck="false">Cam kết</a>
+    <a href="#contact" contenteditable="true" spellcheck="false">Kết luận</a>
+  </div>
+</nav>
+<div class="side-follow"><span>Proposal</span></div>
+<main>
+  <header class="hero">
+    <div class="reveal in">
+      <div class="kicker" contenteditable="true" spellcheck="false">Proposal · Phát triển năng lực cá nhân</div>
+      <h1 contenteditable="true" spellcheck="false"><span contenteditable="true" spellcheck="false">Đề xuất</span><span class="accent" contenteditable="true" spellcheck="false">hợp tác</span><span contenteditable="true" spellcheck="false">win-win</span></h1>
+      <p class="lead" contenteditable="true" spellcheck="false"><br></p>
+      <div class="scroll-hint"><i></i><span contenteditable="true" spellcheck="false">Cuộn để xem proposal</span></div>
+    </div>
+    <div class="hero-art reveal in">
+      <div class="portrait-card"></div>
+      <div class="blob one">✦</div><div class="blob two">✿</div><div class="blob three">↗</div><div class="blob four">●</div>
+      <div class="meta-strip">
+        <div class="meta-item"><small>Người đề xuất</small><strong contenteditable="true" spellcheck="false">Nguyễn Trường Giang</strong></div>
+        <div class="meta-item"><small>Vai trò</small><strong contenteditable="true" spellcheck="false">Video Editor</strong></div>
+        <div class="meta-item"><small>Định hướng</small><strong contenteditable="true" spellcheck="false">Tư duy SX-KD</strong></div>
+        <div class="meta-item"><small>Thời gian</small><strong contenteditable="true" spellcheck="false">06/2026</strong></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="ribbon"><div class="ribbon-track"><span contenteditable="true" spellcheck="false">CLEAR</span><span contenteditable="true" spellcheck="false">DIRECT</span><span contenteditable="true" spellcheck="false">WIN-WIN</span><span contenteditable="true" spellcheck="false">OUTPUT</span><span contenteditable="true" spellcheck="false">DATA</span><span contenteditable="true" spellcheck="false">SYSTEM</span><span contenteditable="true" spellcheck="false">CLEAR</span><span contenteditable="true" spellcheck="false">DIRECT</span><span contenteditable="true" spellcheck="false">WIN-WIN</span><span contenteditable="true" spellcheck="false">OUTPUT</span><span contenteditable="true" spellcheck="false">DATA</span><span contenteditable="true" spellcheck="false">SYSTEM</span></div></div>
+
+  <section class="section reveal in" id="summary">
+    <div class="section-label"><div class="num" contenteditable="true" spellcheck="false">01 · Tổng quan</div><div><h2 class="title" contenteditable="true" spellcheck="false">Em đang đề xuất điều gì</h2><p class="desc" contenteditable="true" spellcheck="false">Em không đề xuất xin thêm đặc quyền hay chuyển vị trí ngay. Em đề xuất một hướng đi phát triên rõ ràng, có đầu ra và có thể đánh giá được. Em chủ động làm phần lớn công việc. Mentor chỉ cần phản biện và định hướng ở những điểm quan trọng.</p></div></div>
+    <div class="grid four">
+      <div class="card butter"><span class="tag" contenteditable="true" spellcheck="false">Bản chất</span><h4 contenteditable="true" spellcheck="false">Hợp tác có điều kiện</h4><p contenteditable="true" spellcheck="false">Em nhận mentor. Team nhận lại tài liệu, quy trình, dữ liệu có thể sử dụng.</p></div>
+      <div class="card"><span class="tag" contenteditable="true" spellcheck="false">Phạm vi</span><h4 contenteditable="true" spellcheck="false">Không ảnh hưởng công việc</h4><p contenteditable="true" spellcheck="false">Công việc hậu kỳ hiện tại vẫn là ưu tiên số một. Việc phát triển cá nhân không được làm giảm hiệu suất team.</p></div>
+      <div class="card leaf"><span class="tag" contenteditable="true" spellcheck="false">Đầu ra</span><h4 contenteditable="true" spellcheck="false">Có thứ để đánh giá</h4><p contenteditable="true" spellcheck="false">Mỗi giai đoạn đều có sản phẩm bàn giao rõ ràng, không dừng lại ở việc “em học được gì”.</p></div>
+      <div class="card sky"><span class="tag" contenteditable="true" spellcheck="false">Cách làm</span><h4 contenteditable="true" spellcheck="false">Ngắn gọn và trực tiếp</h4><p contenteditable="true" spellcheck="false">Trước mỗi buổi có tài liệu. Trong buổi hỏi đúng vấn đề. Sau buổi có việc cần làm tiếp.</p></div>
+    </div>
+  </section>
+
+  <section class="section reveal in" id="background">
+    <div class="section-label"><div class="num" contenteditable="true" spellcheck="false">02 · Bối cảnh</div><div><h2 class="title" contenteditable="true" spellcheck="false">Vấn đề em muốn giải quyết</h2><p class="desc" contenteditable="true" spellcheck="false">Hiện tại em đang ở vai trò Editor: nhận việc, xử lý hậu kỳ, đảm bảo sản phẩm. Nhưng nếu muốn phát triển tư duy SX-KD, em cần học cách nhìn rộng hơn: thị trường, nguồn lực, chi phí, dữ liệu, quy trình, con người và rủi ro. Đây là phần em không thể học đủ nếu chỉ tiếp tục làm hậu kỳ đơn lẻ.</p></div></div>
+    <div class="table-wrap"><table><thead><tr><th contenteditable="true" spellcheck="false">Tiêu chí</th><th contenteditable="true" spellcheck="false">Tư duy Editor</th><th contenteditable="true" spellcheck="false">Tư duy Leader SX-KD</th></tr></thead><tbody><tr><td contenteditable="true" spellcheck="false">Hiệu suất</td><td contenteditable="true" spellcheck="false">Làm đúng số lượng, đúng chất lượng, đúng deadline.</td><td contenteditable="true" spellcheck="false">Thiết kế cách làm để cả team đạt mục tiêu về sản lượng, chất lượng, views, doanh thu và hiệu quả vận hành.</td></tr><tr><td contenteditable="true" spellcheck="false">Góc nhìn</td><td contenteditable="true" spellcheck="false">Tập trung vào dựng, nhịp cắt, hình ảnh, âm thanh và chất lượng sản phẩm.</td><td contenteditable="true" spellcheck="false">Nhìn cả chuỗi: chọn ngách, kế hoạch nội dung, nhân sự, tài nguyên, chi phí, dữ liệu, rủi ro và doanh thu.</td></tr><tr><td contenteditable="true" spellcheck="false">Cách làm việc</td><td contenteditable="true" spellcheck="false">Làm tốt phần việc cá nhân theo khâu.</td><td contenteditable="true" spellcheck="false">Đóng gói quy trình, giao việc rõ, kiểm soát chất lượng, xử lý vấn đề và đọc dữ liệu để ra quyết định.</td></tr><tr><td contenteditable="true" spellcheck="false">Giá trị tạo ra</td><td contenteditable="true" spellcheck="false">Một sản phẩm hoàn thiện.</td><td contenteditable="true" spellcheck="false">Một hệ thống làm việc có thể lặp lại, đo được và cải thiện được.</td></tr></tbody></table></div>
+  </section>
+
+  <section class="section reveal in" id="winwin">
+    <div class="section-label"><div class="num" contenteditable="true" spellcheck="false">03 · Quan hệ Win-win</div><div><h2 class="title" contenteditable="true" spellcheck="false">Hai bên nhận được gì</h2><p class="desc" contenteditable="true" spellcheck="false">Đề xuất này chỉ hợp lý nếu cả hai bên đều có lợi. Em không muốn chị là người phải theo sát hay làm thay. Em cần định hướng. Đổi lại, em chịu trách nhiệm tạo output thực tế.</p></div></div>
+    <div class="split-quote">
+      <div class="quote-card"><h3 contenteditable="true" spellcheck="false">Không xin ưu tiên. Em đề xuất một trao đổi có kết quả.</h3><p contenteditable="true" spellcheck="false">Chi góp góc nhìn. Em làm việc, tổng hợp và bàn giao output có thể dùng lại.</p></div>
+      <div class="grid two">
+        <div class="card rose"><span class="tag" contenteditable="true" spellcheck="false">Team nhận được</span><h3 contenteditable="true" spellcheck="false">Output có thể dùng lại</h3><p contenteditable="true" spellcheck="false">Team có thể nhận lại bản nghiên cứu thị trường, kế hoạch SXND, quy trình sản xuất, checklist, bộ materials, quy chuẩn chất lượng và báo cáo dữ liệu.</p></div>
+        <div class="card peach"><span class="tag" contenteditable="true" spellcheck="false">Em nhận được</span><h3 contenteditable="true" spellcheck="false">Định hướng phát triển rõ hơn</h3><p contenteditable="true" spellcheck="false">Em được học cách suy nghĩ ở tầng quản lý, được phản biện sớm, được sửa điểm mù và có cơ hội chứng minh năng lực ngoài phạm vi dựng video.</p></div>
+      </div>
+    </div>
+    <div class="benefit-list">
+      <div class="card butter"><h3 contenteditable="true" spellcheck="false">Lợi ích cho em</h3><p contenteditable="true" spellcheck="false">Em có một lộ trình phát triển nội bộ rõ ràng, có bằng chứng năng lực bằng output thực tế, không chỉ bằng lời nói.</p></div>
+      <div class="card"><h3 contenteditable="true" spellcheck="false">Lợi ích cho doanh nghiệp</h3><p contenteditable="true" spellcheck="false">Doanh nghiệp có thêm một nhân sự hiểu sản xuất, biết đọc số, biết tài liệu hóa quy trình và có khả năng phát triển lên vai trò cao hơn.</p></div>
+      <div class="card leaf"><h3 contenteditable="true" spellcheck="false">Rủi ro thấp</h3><p contenteditable="true" spellcheck="false">Phạm vi rõ. Thời gian trao đổi gọn. Chị không phải theo sát từng việc. Công việc hiện tại không bị ảnh hưởng.</p></div>
+    </div>
+  </section>
+
+  <section class="section reveal in" id="principles"><div class="section-label"><div class="num" contenteditable="true" spellcheck="false">04 · Nguyên tắc</div><div><h2 class="title" contenteditable="true" spellcheck="false">Cách phối hợp rõ ràng</h2><p class="desc" contenteditable="true" spellcheck="false">Em muốn thống nhất cách làm việc đơn giản: chuẩn bị trước, hỏi đúng vấn đề, nhận feedback thẳng, làm xong có báo cáo.</p></div></div><div class="grid four"><div class="card"><span class="tag" contenteditable="true" spellcheck="false">01</span><h4 contenteditable="true" spellcheck="false">Em chuẩn bị trước</h4><p contenteditable="true" spellcheck="false">Không vào buổi mentor bằng câu hỏi chung chung. Em gửi trước tài liệu, dữ liệu và phương án.</p></div><div class="card butter"><span class="tag" contenteditable="true" spellcheck="false">02</span><h4 contenteditable="true" spellcheck="false">Mentor phản biện thẳng</h4><p contenteditable="true" spellcheck="false">Em cần feedback trực tiếp: điểm nào sai, điểm nào thiếu, điểm nào chưa nên làm.</p></div><div class="card leaf"><span class="tag" contenteditable="true" spellcheck="false">03</span><h4 contenteditable="true" spellcheck="false">Không kéo dài thời gian</h4><p contenteditable="true" spellcheck="false">Mỗi buổi tập trung vào quyết định chính, không biến thành buổi trao đổi lan man.</p></div><div class="card sky"><span class="tag" contenteditable="true" spellcheck="false">04</span><h4 contenteditable="true" spellcheck="false">Kết luận rõ ràng</h4><p contenteditable="true" spellcheck="false">Sau buổi trao đổi, em chốt lại việc cần làm, deadline và output cần gửi lại.</p></div></div></section>
+
+  <section class="section reveal in" id="objectives"><div class="section-label"><div class="num" contenteditable="true" spellcheck="false">05 · Năng lực</div><div><h2 class="title" contenteditable="true" spellcheck="false">Em cần học những gì</h2><p class="desc" contenteditable="true" spellcheck="false">Những năng lực dưới đây là phần em cần nâng cấp để không chỉ là người làm hậu kỳ, mà có thể hiểu cách xây dựng và vận hành một hệ thống sản xuất nội dung.</p></div></div><div class="grid three"><div class="card"><span class="tag" contenteditable="true" spellcheck="false">01</span><h3 contenteditable="true" spellcheck="false">Nghiên cứu thị trường</h3><p contenteditable="true" spellcheck="false">Biết thống kê 15–20 kênh cùng chủ đề, đọc views, format, tần suất đăng, độ cạnh tranh và tìm ngách nhỏ có khả năng triển khai.</p></div><div class="card butter"><span class="tag" contenteditable="true" spellcheck="false">02</span><h3 contenteditable="true" spellcheck="false">Lập kế hoạch SXND</h3><p contenteditable="true" spellcheck="false">Biết xây content map, content calendar, kế hoạch sản xuất và mốc launching dựa trên nguồn lực thật.</p></div><div class="card"><span class="tag" contenteditable="true" spellcheck="false">03</span><h3 contenteditable="true" spellcheck="false">Quản trị quy trình</h3><p contenteditable="true" spellcheck="false">Biết đóng gói template, font, âm thanh, nhịp cắt, checklist và tiêu chuẩn chất lượng để người khác làm theo được.</p></div><div class="card leaf"><span class="tag" contenteditable="true" spellcheck="false">04</span><h3 contenteditable="true" spellcheck="false">Đọc dữ liệu</h3><p contenteditable="true" spellcheck="false">Biết đọc Analytics, retention graph, CTR, APV, views và doanh thu để tìm đúng vấn đề trong quy trình.</p></div><div class="card"><span class="tag" contenteditable="true" spellcheck="false">05</span><h3 contenteditable="true" spellcheck="false">Quản trị rủi ro</h3><p contenteditable="true" spellcheck="false">Biết các vấn đề về copyright claim, strike, fair use, MCN/Network, bảo mật thông tin và rủi ro nhân sự.</p></div><div class="card dark"><span class="tag" contenteditable="true" spellcheck="false">06</span><h3 contenteditable="true" spellcheck="false">Tư duy kinh doanh</h3><p contenteditable="true" spellcheck="false">Biết tính chi phí sản xuất, RPM, nguồn thu ngoài Adsense và phương án tái đầu tư.</p></div></div></section>
+
+  <section class="section reveal in" id="roadmap"><div class="section-label"><div class="num" contenteditable="true" spellcheck="false">06 · Lộ trình</div><div><h2 class="title" contenteditable="true" spellcheck="false">Giai đoạn triển khai</h2><p class="desc" contenteditable="true" spellcheck="false">Mỗi giai đoạn có mục tiêu, việc cần làm và output bàn giao. Cách này giúp chị dễ đánh giá tiến độ và giúp em không đi theo cảm tính.</p></div></div>
+    <div class="phase"><div class="phase-left"><div><div class="phase-code" contenteditable="true" spellcheck="false">Giai đoạn 01</div><h3 contenteditable="true" spellcheck="false">Lên kế hoạch và định hướng</h3></div><div class="phase-time" contenteditable="true" spellcheck="false"><br></div></div><div class="phase-right"><h4 contenteditable="true" spellcheck="false">Mục tiêu</h4><ul><li contenteditable="true" spellcheck="false">Đánh giá được một ngách có khả thi hay không.</li><li contenteditable="true" spellcheck="false">Không chọn chủ đề theo cảm tính, mà dựa trên dữ liệu, nguồn lực và khả năng sản xuất.</li></ul><h4 contenteditable="true" spellcheck="false">Việc cần làm</h4><ul><li contenteditable="true" spellcheck="false">Thống kê 15–20 kênh cùng chủ đề.</li><li contenteditable="true" spellcheck="false">Thu thập views, format, tần suất đăng, độ cạnh tranh, thumbnail/title và hành vi khán giả.</li><li contenteditable="true" spellcheck="false">Tìm ngách nhỏ trong chủ đề lớn và kết luận mức độ khả thi.</li><li contenteditable="true" spellcheck="false">Tính thời gian hoàn thiện một video với nguồn lực hiện tại.</li><li contenteditable="true" spellcheck="false">Ước tính chi phí stock, AI voice, nhạc bản quyền và các tài nguyên sản xuất.</li><li contenteditable="true" spellcheck="false">Xây brand direction gắn với hành vi người xem: tên kênh, tone, visual direction, thumbnail và title direction.</li></ul><div class="outcome"><strong contenteditable="true" spellcheck="false">Output bàn giao</strong><p contenteditable="true" spellcheck="false">01 bản nghiên cứu thị trường; <br>01 kế hoạch SXND; <br>Mốc launching cụ thể; <br>01 content map cho 3 tháng đầu.</p></div></div></div>
+    <div class="phase"><div class="phase-left"><div><div class="phase-code" contenteditable="true" spellcheck="false">Giai đoạn 02</div><h3 contenteditable="true" spellcheck="false">Xây dựng kế hoạch hành động&nbsp;</h3></div><div class="phase-time" contenteditable="true" spellcheck="false"><br></div></div><div class="phase-right"><h4 contenteditable="true" spellcheck="false">Mục tiêu</h4><ul><li contenteditable="true" spellcheck="false">Học cách vận hành quy trình, không tự nhảy vào sửa mọi việc bằng kỹ năng cá nhân.</li><li contenteditable="true" spellcheck="false">Tạo bộ tài liệu để người khác có thể làm theo tiêu chuẩn chung.</li></ul><h4 contenteditable="true" spellcheck="false">Việc cần làm</h4><ul><li contenteditable="true" spellcheck="false">Phụ trách một khâu nhỏ trong quy trình để vẫn hiểu thực tế sản xuất.</li><li contenteditable="true" spellcheck="false">Dành phần lớn thời gian quan sát thị trường, duyệt đầu vào, duyệt đầu ra và đọc chỉ số kênh.</li><li contenteditable="true" spellcheck="false">Đóng gói bộ materials: template, font, quy chuẩn âm thanh, nhịp cắt, style dựng và checklist.</li><li contenteditable="true" spellcheck="false">Xây kế hoạch hành động theo mục tiêu tháng/quý: số video, views, doanh thu, APV, CTR.</li><li contenteditable="true" spellcheck="false">Đọc retention graph để biết khán giả rời đi ở giây nào và vì sao.</li><li contenteditable="true" spellcheck="false">Truy ngược vấn đề về đúng khâu: kịch bản, intro, hook, pacing, dựng hoặc packaging.</li></ul><div class="outcome"><strong contenteditable="true" spellcheck="false">Output bàn giao</strong><p contenteditable="true" spellcheck="false">01 quy trình SXND; <br>01 quy chuẩn chất lượng sản phẩm; <br>01 bộ materials; <br>01 báo cáo dữ liệu và đề xuất điều chỉnh.</p></div></div></div>
+    <div class="phase"><div class="phase-left"><div><div class="phase-code" contenteditable="true" spellcheck="false">Giai đoạn 03</div><h3 contenteditable="true" spellcheck="false">Quản trị rủi ro và phát triển bền vững</h3></div><div class="phase-time" contenteditable="true" spellcheck="false"><br></div></div><div class="phase-right"><h4 contenteditable="true" spellcheck="false">Mục tiêu</h4><ul><li contenteditable="true" spellcheck="false">Hiểu luật chơi của nền tảng và các rủi ro khi vận hành kênh.</li><li contenteditable="true" spellcheck="false">Biết cách bảo vệ doanh thu, dữ liệu, tài nguyên và thông tin doanh nghiệp.</li></ul><h4 contenteditable="true" spellcheck="false">Việc cần làm</h4><ul><li contenteditable="true" spellcheck="false">Tìm hiểu cách xử lý copyright claim, copyright strike và fair use.</li><li contenteditable="true" spellcheck="false">Hiểu cách làm việc với Network/MCN khi có vấn đề bản quyền hoặc doanh thu.</li><li contenteditable="true" spellcheck="false">Phân tích nguồn thu ngoài Adsense: affiliate, quảng cáo nhãn hàng, Membership.</li><li contenteditable="true" spellcheck="false">Đề xuất cách tái đầu tư: writer, tài khoản AI, máy móc, tài nguyên sản xuất hoặc nhân sự.</li><li contenteditable="true" spellcheck="false">Tách rõ dự án cá nhân với thông tin, quy trình, dữ liệu và tài nguyên của doanh nghiệp.</li></ul><div class="outcome"><strong contenteditable="true" spellcheck="false">Output bàn giao</strong><p contenteditable="true" spellcheck="false">01 khung quản trị rủi ro; <br>01 nguyên tắc bảo mật và phân tách tài nguyên; <br>01 định hướng tối ưu doanh thu và tái đầu tư.</p></div></div></div>
+  </section>
+
+  <section class="section reveal in" id="mechanism"><div class="section-label"><div class="num" contenteditable="true" spellcheck="false">07 · Cơ chế</div><div><h2 class="title" contenteditable="true" spellcheck="false">Cách làm cụ thể</h2><p class="desc" contenteditable="true" spellcheck="false">Em đề xuất cách làm đơn giản để không tốn nhiều thời gian của chị nhưng vẫn có hiệu quả.</p></div></div><div class="steps"><div class="step"><strong contenteditable="true" spellcheck="false"><br></strong><p contenteditable="true" spellcheck="false">Em gửi tài liệu gồm: mục tiêu, dữ liệu, phương án em đề xuất, rủi ro em thấy và câu hỏi cần phản biện.</p></div><div class="step"><strong contenteditable="true" spellcheck="false"><br></strong><p contenteditable="true" spellcheck="false">Trao đổi thẳng vào vấn đề: hướng đi có ổn không, thiếu gì, rủi ro gì, ưu tiên nào trước.</p></div><div class="step"><strong contenteditable="true" spellcheck="false"><br></strong><p contenteditable="true" spellcheck="false">Em chốt lại việc cần làm, deadline và output tiếp theo.</p></div><div class="step"><strong contenteditable="true" spellcheck="false"><br></strong><p contenteditable="true" spellcheck="false">Em gửi báo cáo kết quả, tài liệu bàn giao, bài học và đề xuất điều chỉnh cho giai đoạn sau.</p></div></div></section>
+
+  <section class="section reveal in" id="commitment"><div class="section-label"><div class="num" contenteditable="true" spellcheck="false">08 · Cam kết</div><div><h2 class="title" contenteditable="true" spellcheck="false">Những điều em cam kết</h2><p class="desc" contenteditable="true" spellcheck="false">Em viết rõ phần này để proposal không bị hiểu là xin ưu tiên cá nhân hoặc làm ảnh hưởng công việc chung.</p></div></div><div class="grid three"><div class="card butter"><h3 contenteditable="true" spellcheck="false">Không ảnh hưởng công việc hiện tại</h3><p contenteditable="true" spellcheck="false">Nhiệm vụ hậu kỳ và deliverable của team vẫn là ưu tiên số một.</p></div><div class="card"><h3 contenteditable="true" spellcheck="false">Không để mentor làm thay</h3><p contenteditable="true" spellcheck="false">Em tự chuẩn bị, tự triển khai, tự tổng hợp. Mentor chỉ phản biện và định hướng.</p></div><div class="card"><h3 contenteditable="true" spellcheck="false">Có output rõ ràng</h3><p contenteditable="true" spellcheck="false">Mỗi giai đoạn phải có tài liệu bàn giao. Nếu không có output, proposal này không còn ý nghĩa.</p></div><div class="card dark"><h3 contenteditable="true" spellcheck="false">Tôn trọng kết quả tập thể</h3><p contenteditable="true" spellcheck="false">Kết quả là của cả team. Mọi đề xuất liên quan công việc chung cần được bàn bạc, phân công và thống nhất rõ.</p></div><div class="card peach"><h3 contenteditable="true" spellcheck="false">Bảo mật thông tin doanh nghiệp</h3><p contenteditable="true" spellcheck="false">Không sử dụng hoặc tiết lộ thông tin nội bộ, dữ liệu, quy trình, thương hiệu hoặc tài nguyên công ty ngoài phạm vi cho phép.</p></div><div class="card leaf"><h3 contenteditable="true" spellcheck="false">Chủ động học thêm</h3><p contenteditable="true" spellcheck="false">Em sẽ tự học thêm về OKRs, lãnh đạo bản thân, thống kê, báo cáo, quản trị sản xuất và tư duy kinh doanh.</p></div></div></section>
+
+  <section class="section reveal in" id="expected"><div class="section-label"><div class="num" contenteditable="true" spellcheck="false">09 · Kết quả</div><div><h2 class="title" contenteditable="true" spellcheck="false">Kết quả nếu proposal được duyệt</h2><p class="desc" contenteditable="true" spellcheck="false"><br></p></div></div><div class="grid three"><div class="card"><span class="tag" contenteditable="true" spellcheck="false">Với em</span><h3 contenteditable="true" spellcheck="false">Có năng lực chứng minh được</h3><p contenteditable="true" spellcheck="false">Em có bằng chứng rõ hơn về khả năng nghiên cứu, lập kế hoạch, vận hành, đọc dữ liệu và chịu trách nhiệm.</p></div><div class="card butter"><span class="tag" contenteditable="true" spellcheck="false">Với mentor / team</span><h3 contenteditable="true" spellcheck="false">Có tài liệu và insight</h3><p contenteditable="true" spellcheck="false">Team có thêm tài liệu nghiên cứu, checklist, quy trình, materials và báo cáo dữ liệu có thể tham khảo.</p></div><div class="card dark"><span class="tag" contenteditable="true" spellcheck="false">Với doanh nghiệp</span><h3 contenteditable="true" spellcheck="false">Có thêm nhân sự kế cận</h3><p contenteditable="true" spellcheck="false">Doanh nghiệp có thêm một nhân sự hiểu sản xuất, hiểu dữ liệu, có trách nhiệm bảo mật và có tiềm năng phát triển lên vai trò quản lý.</p></div></div></section>
+
+  <div class="closing reveal in" id="contact"><div><div class="kicker" contenteditable="true" spellcheck="false">Kết luận</div><h2 contenteditable="true" spellcheck="false">Hợp tác rõ ràng <em>và&nbsp; hiệu&nbsp; quả</em></h2><p class="lead" style="margin-top:24px" contenteditable="true" spellcheck="false">Em cần con đường để phát triển đúng hướng. Đổi lại, em sẽ chủ động làm việc, tạo output rõ ràng và chia sẻ lại những phần có ích cho team.&nbsp;</p></div><aside class="contact-card"><div class="small" contenteditable="true" spellcheck="false">Người đề xuất</div><h3 contenteditable="true" spellcheck="false">Nguyễn Trường Giang</h3><p contenteditable="true" spellcheck="false">Video Editor&nbsp;</p><a href="mailto:giangnguyenn2412@gmail.com">giangnguyenn2412@gmail.com</a></aside></div>
+</main>
+<footer><span contenteditable="true" spellcheck="false">Proposal · Hợp tác phát triển năng lực cá nhân</span><span contenteditable="true" spellcheck="false">Life Media · 06/2026</span></footer>
+
+<script>
+/* Professional interaction layer: locked by default, editable on demand, no proposal text changes. */
+(function(){
+  const body=document.body;
+  const progress=document.getElementById('progress');
+  const nav=document.querySelector('.nav');
+  const toast=document.getElementById('toast');
+  const editToggle=document.getElementById('editToggle');
+  const lockBtn=document.getElementById('lockBtn');
+  const publishLocked=document.getElementById('publishLocked');
+  const existingExport=document.getElementById('exportBtn');
+  const cursorGlow=document.getElementById('cursorGlow');
+  const jazz=document.getElementById('bgJazz');
+  const jazzToggle=document.getElementById('jazzToggle');
+  const jazzPlayer=document.getElementById('jazzPlayer');
+  const jazzVolume=document.getElementById('jazzVolume');
+  const editableSelector='main h1,main h2,main h3,main h4,main p,main li,main td,main th,main span,main strong,main div.kicker,main div.num,main div.phase-code,main div.phase-time,main div.small,footer span,.brand span:not(.brand-mark),.nav a';
+  const editableNodes=[...document.querySelectorAll(editableSelector)];
+  const parallaxNodes=[...document.querySelectorAll('[data-depth]')];
+  const cards=[...document.querySelectorAll('.card,.phase,.quote-card,.contact-card,.table-wrap')];
+  const sections=[...document.querySelectorAll('section[id], .closing[id]')];
+  const navLinks=[...document.querySelectorAll('.nav-links a[href^="#"]')];
+  let mouseX=window.innerWidth/2, mouseY=window.innerHeight/2;
+  let scrollY=window.scrollY, ticking=false, isEditing=false;
+  jazz.volume=parseFloat(jazzVolume?.value||'.35');
+  function showToast(text){ if(!toast) return; toast.textContent=text; toast.classList.add('show'); clearTimeout(showToast.t); showToast.t=setTimeout(()=>toast.classList.remove('show'),1500); }
+  function setEditing(on){
+    isEditing=!!on;
+    body.classList.toggle('editing',isEditing);
+    body.classList.toggle('locked',!isEditing);
+    editableNodes.forEach(el=>{
+      el.setAttribute('contenteditable',isEditing?'true':'false');
+      el.setAttribute('spellcheck','false');
+      if(!isEditing && document.activeElement===el) el.blur();
+    });
+    if(editToggle) editToggle.textContent=isEditing?'Đang chỉnh sửa':'Mở chỉnh sửa';
+    if(lockBtn) lockBtn.textContent=isEditing?'Hoàn thành & khóa':'Đã khóa';
+    if(existingExport) existingExport.style.display=isEditing?'inline-flex':'none';
+    showToast(isEditing?'Đã mở chỉnh sửa':'Đã khóa chỉnh sửa');
+  }
+  function cleanClone(mode){
+    const clone=document.documentElement.cloneNode(true);
+    clone.querySelectorAll('.presentation-toast').forEach(el=>el.remove());
+    clone.querySelectorAll('#cursorGlow').forEach(el=>el.remove());
+    clone.querySelectorAll('script').forEach(s=>{
+      // keep scripts so interactions still work; no-op
+    });
+    clone.querySelectorAll('[contenteditable]').forEach(el=>el.setAttribute('contenteditable',mode==='editable'?'true':'false'));
+    const bodyClone=clone.querySelector('body');
+    if(bodyClone){ bodyClone.classList.toggle('locked',mode!=='editable'); bodyClone.classList.toggle('editing',mode==='editable'); }
+    const html='<!DOCTYPE html>\n'+clone.outerHTML;
+    return html;
+  }
+  function downloadHTML(filename,mode){
+    const blob=new Blob([cleanClone(mode)],{type:'text/html;charset=utf-8'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a'); a.href=url; a.download=filename; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  }
+  editToggle?.addEventListener('click',()=>setEditing(!isEditing));
+  lockBtn?.addEventListener('click',()=>setEditing(false));
+  publishLocked?.addEventListener('click',()=>downloadHTML('Proposal_CherryPhan_Final_Locked.html','locked'));
+  existingExport?.addEventListener('click',(e)=>{e.stopImmediatePropagation(); e.preventDefault(); downloadHTML('Proposal_CherryPhan_Editable.html','editable');},true);
+  jazzVolume?.addEventListener('input',()=>{jazz.volume=parseFloat(jazzVolume.value)});
+  jazzToggle?.addEventListener('click',()=>{
+    if(jazz.paused){ jazz.play().then(()=>{jazzToggle.textContent='Ⅱ'; jazzPlayer.classList.remove('paused');}).catch(()=>showToast('Trình duyệt cần click lần nữa để bật nhạc')); }
+    else{ jazz.pause(); jazzToggle.textContent='▶'; jazzPlayer.classList.add('paused'); }
+  });
+  window.addEventListener('mousemove',e=>{
+    mouseX=e.clientX; mouseY=e.clientY;
+    if(cursorGlow){ cursorGlow.style.opacity='.95'; cursorGlow.style.transform=`translate(${mouseX}px,${mouseY}px) translate(-50%,-50%)`; }
+  },{passive:true});
+  window.addEventListener('mouseleave',()=>{ if(cursorGlow) cursorGlow.style.opacity='0'; });
+  cards.forEach(card=>{
+    card.addEventListener('mousemove',e=>{
+      const r=card.getBoundingClientRect();
+      const x=(e.clientX-r.left)/r.width, y=(e.clientY-r.top)/r.height;
+      card.style.setProperty('--mx',`${x*100}%`); card.style.setProperty('--my',`${y*100}%`);
+      const rx=(y-.5)*-4, ry=(x-.5)*5;
+      card.style.transform=`perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-5px)`;
+    });
+    card.addEventListener('mouseleave',()=>{card.style.transform='';});
+  });
+  function updateActiveNav(){
+    let current='';
+    const offset=window.innerHeight*.34;
+    sections.forEach(sec=>{ if(sec.getBoundingClientRect().top<=offset) current=sec.id; });
+    navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+current));
+  }
+  function update(){
+    ticking=false;
+    scrollY=window.scrollY || document.documentElement.scrollTop || 0;
+    if(progress){const h=document.documentElement;progress.style.width=(scrollY/(h.scrollHeight-h.clientHeight)*100)+'%';}
+    nav?.classList.toggle('compact',scrollY>70);
+    parallaxNodes.forEach(el=>{
+      const depth=parseFloat(el.dataset.depth||'0.04');
+      el.style.transform=`translate3d(0,${scrollY*depth*-1}px,0)`;
+    });
+    const wm=document.querySelector('.bg-watermark');
+    if(wm) wm.style.transform=`translate3d(0,${scrollY*-0.025}px,0) rotate(-7deg)`;
+    const heroArt=document.querySelector('.hero-art');
+    if(heroArt) heroArt.style.transform=`translate3d(0,${scrollY*-0.035}px,0)`;
+    const ribbon=document.querySelector('.ribbon');
+    if(ribbon) ribbon.style.transform=`rotate(-1.1deg) translate3d(${Math.min(scrollY*.025,80)}px,0,0)`;
+    updateActiveNav();
+  }
+  function requestUpdate(){ if(!ticking){ ticking=true; requestAnimationFrame(update); } }
+  window.addEventListener('scroll',requestUpdate,{passive:true});
+  window.addEventListener('resize',requestUpdate,{passive:true});
+  const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}}));
+  setEditing(false);
+  update();
+})();
+</script>
+
+
+</body></html>
